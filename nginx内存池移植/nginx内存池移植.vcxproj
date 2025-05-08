@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClInclude Include="nginx_mem_pool.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nginx_mem_pool.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
